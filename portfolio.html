@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LT-ALDO</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/portfolio.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/img/louha.png" alt="zizo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Hamza LOUHA</h1>
+
+          <p class="title">CYBERSECURITY ENGINEER</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:h.louha99@gmail.com" class="contact-link">h.louha99@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+212621304874" class="contact-link">+212 6 21 30 48 74</a>
+            </div>
+
+          </li>
+
+          <button class="home-button">
+            <a href="index.html">Home</a>
+          </button>
+
+          
+
+        </ul>
+
+        
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+         
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+       
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                 
+
+                  <img src="./assets/img/dnsss.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mise en place et configuration d'une extension de sécurité sur un serveur DNS "DNSSEC"</h3>
+
+                <p class="project-category">La mise en place de DNSSEC (Domain Name System Security Extensions) sur un serveur DNS renforce la sécurité en garantissant l'authenticité des données DNS. Il faut générer des clés cryptographiques, signer la zone DNS avec ces clés, publier les clés publiques dans la zone parente, configurer le serveur DNS pour prendre en charge DNSSEC, et effectuer des tests de validation. La surveillance continue et la documentation sont essentielles. DNSSEC contribue à prévenir la falsification des données DNS, améliorant ainsi la sécurité globale du réseau.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              
+
+                <figure class="project-img">
+                  <img src="./assets/img/shinken.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SUPERVISION D'UNE ARCHITECTURE INFORMATIQUE AVEC 
+                  L'OUTIL SHINKEN </h3>
+
+                <p class="project-category">Superviser une architecture informatique avec Shinken est essentiel pour garantir la disponibilité et les performances. Shinken, basé sur Nagios, permet de surveiller les ressources informatiques de manière proactive. Les étapes clés incluent l'installation, la configuration des hôtes et des services, la création de règles de notification, la personnalisation des tableaux de bord, la planification des vérifications, la sécurisation, les tests, et la documentation. Cette supervision continue assure la stabilité et la sécurité de l'infrastructure. Shinken facilite la détection précoce des problèmes, minimisant ainsi les interruptions de service et contribuant à une meilleure gestion des systèmes informatiques.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/snort.jfif" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Système de détection des intrusions SNORT</h3>
+
+                <p class="project-category">Snort est un puissant système de détection d'intrusions (IDS) open source qui analyse le trafic réseau en temps réel. Il identifie les comportements suspects ou les signatures de menaces préconfigurées. Avec une flexibilité de personnalisation des règles, Snort peut détecter diverses menaces, notamment les tentatives d'intrusion, les attaques par déni de service, et plus encore. Cet outil offre une surveillance en temps réel, génère des alertes pour les administrateurs, et facilite les enquêtes sur les incidents de sécurité. Il est essentiel pour renforcer la sécurité réseau et protéger contre les cybermenaces.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/cloud.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Réalisation des attaques sur une architecture dans le 
+                  cloud .</h3>
+
+                <p class="project-category">L'étude éthique des vulnérabilités, comme la SQL injection, implique l'acquisition de compétences en sécurité informatique de manière responsable. Cela se fait par le biais de formations, de compétitions CTF légales et d'environnements de test isolés. Les plateformes d'apprentissage en ligne et les communautés de sécurité sont d'excellentes ressources pour renforcer ces compétences. Il est essentiel de respecter la légalité en obtenant l'autorisation pour tester la sécurité d'un système. Toute utilisation malveillante de ces compétences est contraire à l'éthique et à la loi. En adoptant une approche responsable, vous contribuez à renforcer la sécurité des systèmes informatiques tout en maintenant l'intégrité et la légalité de vos actions.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/cacti.jfif" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">mise en place d'un serveur de supervision d'un systeme</h3>
+
+                <p class="project-category">d'information avec CACATI-NAGIOS
+                  La mise en place d'un serveur de supervision pour un système d'information avec Cacti et Nagios implique plusieurs étapes essentielles. Tout d'abord, vous devez planifier vos besoins de surveillance. Ensuite, installez Cacti et Nagios sur un serveur Linux ou Unix. Configurez Cacti pour collecter des données de performance et créer des graphiques. Configurez Nagios pour surveiller la disponibilité des services et des périphériques, en créant des règles et des contacts. Intégrez Cacti et Nagios pour une surveillance complète. Effectuez des tests, personnalisez les paramètres, et assurez-vous de maintenir et de documenter la configuration. Cette approche permettra une gestion efficace de votre système d'information en anticipant les problèmes potentiels.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/dk.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L’évaluation de la Sécurité de l’Active Directory</h3>
+
+                <p class="project-category">L'évaluation de la sécurité de l'Active Directory est cruciale pour garantir la protection des données et des systèmes. Elle implique l'analyse des Politiques de Groupe (GPO), la gestion des contrôles d'accès, la vérification des stratégies d'authentification, la surveillance des journaux d'audit, la mise à jour des correctifs, la considération de l'authentification multifacteur (MFA), la mise en place de sauvegardes et de plans de reprise d'activité (PRA), la formation du personnel, les tests de pénétration et la documentation exhaustive. Cette approche proactive renforce la sécurité de l'Active Directory, élément clé de l'infrastructure informatique.</p>
+
+              </a>
+            </li>
+
+           
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    // Add a script to automatically show the portfolio content on page load
+    document.addEventListener('DOMContentLoaded', function () {
+      var portfolio = document.querySelector('.portfolio'); // Select the portfolio section
+      portfolio.classList.add('active'); // Add the 'active' class to display it
+    });
+  </script>
+</body>
+
+</html>
